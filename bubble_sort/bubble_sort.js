@@ -1,3 +1,4 @@
+const swapValue = require('./swap');
 const array01 = [];
 
 function insertToArray(array ,numberOfElements){
@@ -9,12 +10,7 @@ function insertToArray(array ,numberOfElements){
 
 insertToArray(array01, 15)
 
-function swapValue(vetor, a, b){
-    let aux = vetor[a];
-    vetor[a] = vetor[b];
-    vetor[b] = aux;
-    return vetor;
-}
+
 // -- Bubble Sort ---
 function BubbleSort(array){
     const ArrayLength = array.length;
